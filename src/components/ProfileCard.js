@@ -69,7 +69,7 @@ export default function ProfileCard() {
                         className="mt-5"
                         onClick={(e) => e.preventDefault()}
                     >
-                        <Button color="purple" buttonType="link" ripple="dark">
+                        <Button color="blue" buttonType="link" ripple="dark">
                             Show more
                         </Button>
                     </a>

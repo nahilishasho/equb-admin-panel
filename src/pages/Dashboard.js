@@ -1,14 +1,14 @@
 import StatusCard from 'components/StatusCard';
 import ChartLine from 'components/ChartLine';
 import ChartBar from 'components/ChartBar';
-import PageVisitsCard from 'components/PageVisitsCard';
+import TopCustomers from 'components/TopCustomers';
 import TrafficCard from 'components/TrafficCard';
 
 export default function Dashboard() {
     return (
         <>
-            <div className="bg-light-blue-500 px-3 md:px-8 h-40" />
-
+            <div className="bg-gray-100 px-3 md:px-8 h-40" />
+            <div></div>
             <div className="px-3 md:px-8 -mt-24">
                 <div className="container mx-auto max-w-full">
                     <div className="grid grid-cols-1 xl:grid-cols-5">
@@ -26,7 +26,7 @@ export default function Dashboard() {
                 <div className="container mx-auto max-w-full">
                     <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 mb-4">
                         <StatusCard
-                            color="pink"
+                            color="blue"
                             icon="trending_up"
                             title="Traffic"
                             amount="350,897"
@@ -36,7 +36,7 @@ export default function Dashboard() {
                             date="Since last month"
                         />
                         <StatusCard
-                            color="orange"
+                            color="blue"
                             icon="groups"
                             title="New Users"
                             amount="2,356"
@@ -46,7 +46,7 @@ export default function Dashboard() {
                             date="Since last week"
                         />
                         <StatusCard
-                            color="purple"
+                            color="blue"
                             icon="paid"
                             title="Sales"
                             amount="924"
@@ -73,7 +73,7 @@ export default function Dashboard() {
                 <div className="container mx-auto max-w-full">
                     <div className="grid grid-cols-1 xl:grid-cols-5">
                         <div className="xl:col-start-1 xl:col-end-4 px-4 mb-14">
-                            <PageVisitsCard />
+                            <TopCustomers />
                         </div>
                         <div className="xl:col-start-4 xl:col-end-6 px-4 mb-14">
                             <TrafficCard />

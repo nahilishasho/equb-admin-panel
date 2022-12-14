@@ -11,7 +11,7 @@ import Team4 from 'assets/img/team-4-470x470.png';
 export default function CardTable() {
     return (
         <Card>
-            <CardHeader color="purple" contentPosition="left">
+            <CardHeader color="blue" contentPosition="left">
                 <h2 className="text-white text-2xl">Card Table</h2>
             </CardHeader>
             <CardBody>
@@ -81,7 +81,7 @@ export default function CardTable() {
                                     </div>
                                 </th>
                                 <th className="border-b border-gray-200 align-middle font-light text-sm whitespace-nowrap px-2 py-4 text-left">
-                                    <Progress color="red" value="60" />
+                                    <Progress color="orange" value="60" />
                                 </th>
                             </tr>
                             <tr>
@@ -128,7 +128,7 @@ export default function CardTable() {
                                     </div>
                                 </th>
                                 <th className="border-b border-gray-200 align-middle font-light text-sm whitespace-nowrap px-2 py-4 text-left">
-                                    <Progress color="green" value="100" />
+                                    <Progress color="orange" value="100" />
                                 </th>
                             </tr>
                             <tr>
@@ -175,7 +175,7 @@ export default function CardTable() {
                                     </div>
                                 </th>
                                 <th className="border-b border-gray-200 align-middle font-light text-sm whitespace-nowrap px-2 py-4 text-left">
-                                    <Progress color="teal" value="90" />
+                                    <Progress color="orange" value="90" />
                                 </th>
                             </tr>
                             <tr>
@@ -222,7 +222,7 @@ export default function CardTable() {
                                     </div>
                                 </th>
                                 <th className="border-b border-gray-200 align-middle font-light text-sm whitespace-nowrap px-2 py-4 text-left">
-                                    <Progress color="green" value="100" />
+                                    <Progress color="orange" value="100" />
                                 </th>
                             </tr>
                         </tbody>

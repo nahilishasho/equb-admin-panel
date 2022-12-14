@@ -30,8 +30,8 @@ export default function ChartBar() {
                     {
                         label: new Date().getFullYear() - 1,
                         fill: false,
-                        backgroundColor: '#f44336',
-                        borderColor: '#f44336',
+                        backgroundColor: '#ff9800',
+                        borderColor: '#ff9800',
                         data: [27, 68, 86, 74, 10, 4, 87],
                         barThickness: 8,
                     },
@@ -103,11 +103,11 @@ export default function ChartBar() {
     }, []);
     return (
         <Card>
-            <CardHeader color="pink" contentPosition="left">
+            <CardHeader color="blue" contentPosition="left">
                 <h6 className="uppercase text-gray-200 text-xs font-medium">
                     Overview
                 </h6>
-                <h2 className="text-white text-2xl">Sales value</h2>
+                <h2 className="text-white text-2xl">Active Equb App Users</h2>
             </CardHeader>
             <CardBody>
                 <div className="relative h-96">

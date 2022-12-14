@@ -5,11 +5,11 @@ import ProfileCard from 'components/ProfileCard';
 export default function Dashboard() {
     return (
         <>
-            <div className="bg-light-blue-500 pt-14 pb-28 px-3 md:px-8 h-auto">
+            <div className="pt-14 pb-28 px-3 md:px-8 h-auto">
                 <div className="container mx-auto max-w-full">
                     <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4">
                         <StatusCard
-                            color="pink"
+                            color="blue"
                             icon="trending_up"
                             title="Traffic"
                             amount="350,897"
@@ -19,7 +19,7 @@ export default function Dashboard() {
                             date="Since last month"
                         />
                         <StatusCard
-                            color="orange"
+                            color="blue"
                             icon="groups"
                             title="New Users"
                             amount="2,356"
@@ -29,7 +29,7 @@ export default function Dashboard() {
                             date="Since last week"
                         />
                         <StatusCard
-                            color="purple"
+                            color="blue"
                             icon="paid"
                             title="Sales"
                             amount="924"
