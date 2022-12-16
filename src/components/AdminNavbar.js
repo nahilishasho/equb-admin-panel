@@ -6,13 +6,16 @@ import Image from '@material-tailwind/react/Image';
 import Dropdown from '@material-tailwind/react/Dropdown';
 import DropdownItem from '@material-tailwind/react/DropdownItem';
 import ProfilePicture from 'assets/img/team-1-800x800.jpg';
-
+import cboLogo from '../assets/img/cboLogo.png';
 export default function AdminNavbar({ showSidebar, setShowSidebar }) {
     const location = useLocation().pathname;
 
     return (
-        <nav className="bg-light-blue-500 md:ml-64 py-6 px-3">
+        <nav className="bg-light-blue-200 md:ml-64 py-6 px-3">
             <div className="container max-w-full mx-auto flex items-center justify-between md:pr-8 md:pl-10">
+                <div>
+                <Image src={cboLogo} className = "h-40 w-40" />
+                </div>
                 <div className="md:hidden">
                     <Button
                         color="transparent"
