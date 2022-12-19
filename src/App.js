@@ -1,7 +1,7 @@
 import { Switch, Route, Redirect } from 'react-router-dom';
 import Sidebar from 'components/Sidebar';
 import Dashboard from 'pages/Dashboard';
-import Settings from 'pages/Settings';
+import Settings from 'pages/Equb';
 import Tables from 'pages/Tables';
 import Maps from 'pages/Maps';
 import Footer from 'components/Footer';

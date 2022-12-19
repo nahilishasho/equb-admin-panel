@@ -59,7 +59,7 @@ export default function Sidebar() {
                                     Equbs
                                 </NavLink>
                             </li>
-                            <li className="rounded-lg mb-2 ">
+                            {/* <li className="rounded-lg mb-2 ">
                                 <NavLink
                                     to="/tables"
                                     className="flex items-center gap-4 text-sm text-gray-700 font-light px-4 py-3 rounded-lg"
@@ -68,7 +68,7 @@ export default function Sidebar() {
                                     <Icon name="person" size="2xl" />
                                     Users
                                 </NavLink>
-                            </li>
+                            </li> */}
                             <li className="rounded-lg mb-2 text-gray-700">
                                 <NavLink
                                     to="/maps"
@@ -76,7 +76,7 @@ export default function Sidebar() {
                                     activeClassName="bg-gradient-to-tr from-light-blue-500 to-light-blue-700 text-white shadow-md"
                                 >
                                     <Icon name="mic" size="2xl" />
-                                    Announcment
+                                    advertisement
                                 </NavLink>
                             </li>
                             <li className="px-4 rounded-lg mb-2 text-gray-700">
