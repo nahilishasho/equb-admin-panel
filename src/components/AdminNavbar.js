@@ -14,7 +14,7 @@ export default function AdminNavbar({ showSidebar, setShowSidebar }) {
         <nav className="bg-light-blue-200 md:ml-64 py-6 px-3">
             <div className="container max-w-full mx-auto flex items-center justify-between md:pr-8 md:pl-10">
                 <div>
-                <Image src={cboLogo} className = "h-40 w-40" />
+                {/* <Image src={cboLogo} className = "h-40 w-40" /> */}
                 </div>
                 <div className="md:hidden">
                     <Button
@@ -49,9 +49,7 @@ export default function AdminNavbar({ showSidebar, setShowSidebar }) {
 
                 <div className="flex justify-between items-center w-full">
                     <h4 className="uppercase text-white text-bold text-sm tracking-wider mt-1">
-                        {location === '/'
-                            ? 'DASHBOARD'
-                            : location.toUpperCase().replace('/', '')}
+                        
                     </h4>
 
                     <div className="flex">

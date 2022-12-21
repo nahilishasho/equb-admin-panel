@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import AdminNavbar from './AdminNavbar';
 import Icon from '@material-tailwind/react/Icon';
-// import H6 from '@material-tailwind/react/Heading6';
+
 import EqubPicture from '../assets/img/EqubImage.png';
 import Image from '@material-tailwind/react/Image';
 
@@ -51,7 +51,7 @@ export default function Sidebar() {
                             </li> */}
                             <li className="rounded-lg mb-2">
                                 <NavLink
-                                    to="/settings"
+                                    to="/equbs"
                                     className="flex items-center gap-4 text-sm text-gray-700 font-light px-4 py-3 rounded-lg"
                                     activeClassName="bg-gradient-to-tr from-light-blue-500 to-light-blue-700 text-white shadow-md"
                                 >
@@ -59,19 +59,10 @@ export default function Sidebar() {
                                     Equbs
                                 </NavLink>
                             </li>
-                            {/* <li className="rounded-lg mb-2 ">
-                                <NavLink
-                                    to="/tables"
-                                    className="flex items-center gap-4 text-sm text-gray-700 font-light px-4 py-3 rounded-lg"
-                                    activeClassName="bg-gradient-to-tr from-light-blue-500 to-light-blue-700 text-white shadow-md"
-                                >
-                                    <Icon name="person" size="2xl" />
-                                    Users
-                                </NavLink>
-                            </li> */}
+                           
                             <li className="rounded-lg mb-2 text-gray-700">
                                 <NavLink
-                                    to="/maps"
+                                    to="/advertisements"
                                     className="flex items-center gap-4 text-sm text-gray-700 font-light px-4 py-3 rounded-lg"
                                     activeClassName="bg-gradient-to-tr from-light-blue-500 to-light-blue-700 text-white shadow-md"
                                 >
@@ -79,55 +70,32 @@ export default function Sidebar() {
                                     advertisement
                                 </NavLink>
                             </li>
-                            <li className="px-4 rounded-lg mb-2 text-gray-700">
-                                <a
-                                    href="https://demos.creative-tim.com/material-tailwind-kit-react/#/login"
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className="flex items-center gap-4 text-sm font-light py-3"
+                            <li className="rounded-lg mb-2 text-gray-700">
+                            <NavLink
+                                    to="/feedbacks"
+                                    className="flex items-center gap-4 text-sm text-gray-700 font-light px-4 py-3 rounded-lg"
+                                    activeClassName="bg-gradient-to-tr from-light-blue-500 to-light-blue-700 text-white shadow-md"
                                 >
                                     <Icon name="message" size="2xl" />
-                                    FeedBack
-                                </a>
+                                    feedback
+                                </NavLink>
                             </li>
-                            <hr className="my-4  min-w-full rounded-lg" color = "blue"/>
-                            <li className="px-4 rounded-lg mb-2 text-gray-700">
-                                <a
-                                    href="https://demos.creative-tim.com/material-tailwind-kit-react/#/register"
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className="flex items-center gap-4 text-sm font-light py-3"
+                            <hr className="my-3  min-w-full rounded-lg" color = "blue"/>
+                            <li className="rounded-lg mb-2 text-gray-700">
+                            <NavLink
+                                    to="/settings"
+                                    className="flex items-center gap-4 text-sm text-gray-700 font-light px-4 py-3 rounded-lg"
+                                    activeClassName="bg-gradient-to-tr from-light-blue-500 to-light-blue-700 text-white shadow-md"
                                 >
                                     <Icon name="settings" size="2xl" />
-                                    Settings
-                                </a>
+                                    settings
+                                </NavLink>
                             </li>
-                            {/* <li className="px-4 rounded-lg mb-2 text-gray-700">
-                                <a
-                                    href="https://demos.creative-tim.com/material-tailwind-kit-react/#/landing"
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className="flex items-center gap-4 text-sm font-light py-3"
-                                >
-                                    <Icon name="web" size="2xl" />
-                                    Landing Page
-                                </a>
-                            </li> */}
-                            {/* <li className="px-4 rounded-lg mb-2 text-gray-700">
-                                <a
-                                    href="https://demos.creative-tim.com/material-tailwind-kit-react/#/profile"
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className="flex items-center gap-4 text-sm font-light py-3"
-                                >
-                                    <Icon name="account_circle" size="2xl" />
-                                    Profile Page
-                                </a>
-                            </li> */}
+                           
                         </ul>
 
                         <ul className="flex-col min-w-full flex list-none absolute bottom-0">
-                            <li className="bg-gradient-to-tr from-blue-500 to-blue-700 px-4 rounded-lg text-white mb-2">
+                            {/* <li className="bg-gradient-to-tr from-blue-500 to-blue-700 px-4 rounded-lg text-white mb-2">
                                 <a
                                     href="https://material-tailwind.com/documentation/quick-start"
                                     target="_blank"
@@ -137,17 +105,17 @@ export default function Sidebar() {
                                     <Icon name="description" size="2xl" />
                                     Equb Regulations
                                 </a>
-                            </li>
-                            {/* <li className="bg-gradient-to-tr from-blue-500 to-blue-700 px-4 rounded-lg text-white">
-                                <a
-                                    href="https://www.creative-tim.com/product/material-tailwind-dashboard-react"
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className="flex items-center justify-center gap-4 text-sm font-light py-3"
-                                >
-                                    
-                                </a>
                             </li> */}
+                            <li className="bg-gradient-to-tr from-blue-500 to-blue-700 px-4 rounded-lg text-white mb-2">
+                            <NavLink
+                                    to="/equbRegulations"
+                                    className="flex items-center gap-4 text-sm font-light py-3"
+                                >
+                                    <Icon name="description" size="2xl" />
+                                    Equb Regulations
+                                </NavLink>
+                            </li>
+                            
                         </ul>
                     </div>
                 </div>

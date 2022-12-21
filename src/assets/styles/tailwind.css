@@ -539,6 +539,10 @@ video {
 	margin-top: 1rem;
 	margin-bottom: 1rem;
 }
+#root .my-3{
+	margin-top: 0.75rem;
+	margin-bottom: 0.75rem;
+}
 #root .mt-1{
 	margin-top: 0.25rem;
 }
@@ -596,12 +600,6 @@ video {
 #root .mb-14{
 	margin-bottom: 3.5rem;
 }
-#root .-mt-28{
-	margin-top: -7rem;
-}
-#root .mb-16{
-	margin-bottom: 4rem;
-}
 #root .block{
 	display: block;
 }
@@ -631,12 +629,6 @@ video {
 }
 #root .h-10{
 	height: 2.5rem;
-}
-#root .h-auto{
-	height: auto;
-}
-#root .h-\[600px\]{
-	height: 600px;
 }
 #root .min-h-full{
 	min-height: 100%;
@@ -827,12 +819,6 @@ video {
 }
 #root .pl-4{
 	padding-left: 1rem;
-}
-#root .pt-14{
-	padding-top: 3.5rem;
-}
-#root .pb-28{
-	padding-bottom: 7rem;
 }
 #root .text-center{
 	text-align: center;

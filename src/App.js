@@ -1,13 +1,15 @@
 import { Switch, Route, Redirect } from 'react-router-dom';
 import Sidebar from 'components/Sidebar';
 import Dashboard from 'pages/Dashboard';
-import Settings from 'pages/Equb';
-import Tables from 'pages/Tables';
-import Maps from 'pages/Maps';
+import Equbs from 'pages/Equb';
+import Feedbacks from 'pages/Feedbacks';
+import Advertisements from 'pages/Advertisements';
 import Footer from 'components/Footer';
-
+import Settings from 'pages/Settings';
+import EqubRegulations from 'pages/EqubRegulations';
 // Tailwind CSS Style Sheet
 import 'assets/styles/tailwind.css';
+// import Advertisement from 'pages/Advertisement';
 
 function App() {
     return (
@@ -16,10 +18,13 @@ function App() {
             <div className="md:ml-64">
                 <Switch>
                     <Route exact path="/" component={Dashboard} />
+                    <Route exact path="/equbs" component={Equbs} />
+                    <Route exact path="/advertisements" component={Advertisements} />
+                    <Route exact path="/feedbacks" component={Feedbacks} />
                     <Route exact path="/settings" component={Settings} />
-                    <Route exact path="/tables" component={Tables} />
-                    <Route exact path="/maps" component={Maps} />
-                    <Redirect from="*" to="/" />
+                    <Route exact path = "/equbRegulations" component={EqubRegulations}/>
+                    
+                    {/* <Redirect from="*" to="/" /> */}
                 </Switch>
                 <Footer />
             </div>

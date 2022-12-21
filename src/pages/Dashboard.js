@@ -1,8 +1,7 @@
 import StatusCard from 'components/StatusCard';
 import ChartLine from 'components/ChartLine';
 import ChartBar from 'components/ChartBar';
-import TopCustomers from 'components/TopCustomers';
-import TrafficCard from 'components/TrafficCard';
+
 
 export default function Dashboard() {
     return (

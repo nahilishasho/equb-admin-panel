@@ -1,10 +1,8 @@
-
-
-export default function Equb() {
+export default function EqubRegulations() {
     return (
         <>
             <div >
-                    This message is from Equb page
+                    This message is from EqubRegulationPage.
                 
             </div>
 
