@@ -29,7 +29,7 @@ export default function ChartLine() {
                         label: new Date().getFullYear(),
                         backgroundColor: '#03a9f4',
                         borderColor: '#03a9f4',
-                        data: [65, 78, 66, 44, 56, 67, 75,65, 78, 66, 44, 56],
+                        data: [65, 78, 66, 44, 56, 67, 75],
                         fill: false,
                     },
                     {
@@ -37,7 +37,7 @@ export default function ChartLine() {
                         fill: false,
                         backgroundColor: '#ff9800',
                         borderColor: '#ff9800',
-                        data: [40, 68, 86, 74, 56, 60, 87, 40, 68, 86, 74, 56,],
+                        data: [40, 68, 86, 74, 56, 60, 87],
                     },
                 ],
             },
@@ -122,7 +122,7 @@ export default function ChartLine() {
                 <h6 className="uppercase text-gray-200 text-xs font-medium">
                     Overview
                 </h6>
-                <h2 className="text-white text-2xl">Equb Profit</h2>
+                <h2 className="text-white text-2xl">Total Transaction</h2>
             </CardHeader>
             <CardBody>
                 <div className="relative h-96">

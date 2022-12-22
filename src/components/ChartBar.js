@@ -17,6 +17,11 @@ export default function ChartBar() {
                     'May',
                     'June',
                     'July',
+                    'August',
+                    'September',
+                    'October',
+                    'November',
+                    'December'
                 ],
                 datasets: [
                     {
