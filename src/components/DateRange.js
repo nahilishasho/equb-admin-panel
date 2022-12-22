@@ -4,7 +4,7 @@ export default function DateRange() {
      return(
         <>
         <h1>This is date picker</h1>
-        <Button variant="contained">Contained</Button>
+        <Button variant="outlined">Contained</Button>
         </>
      );
 }

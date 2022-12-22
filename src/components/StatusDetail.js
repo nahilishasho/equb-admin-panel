@@ -1,9 +1,5 @@
 import StatusCard from 'components/StatusCard';
-import ChartLine from 'components/ChartLine';
-import ChartBar from 'components/ChartBar';
 import { Button } from '@material-tailwind/react';
-import { NavLink } from 'react-router-dom';
-import DateRange from 'components/DateRange';
 export default function StatusDetail() {
     return (
        

@@ -502,22 +502,6 @@ video {
 }
 #root .fixed{
 	position: fixed;
-	position: fixed;
-}
-#root .relative{
-	position: relative;
-}
-#root .absolute{
-	position: absolute;
-}
-#root .fixed{
-	position: fixed;
-}
-#root .relative{
-	position: relative;
-}
-#root .absolute{
-	position: absolute;
 }
 #root .left-0{
 	left: 0px;
@@ -537,31 +521,11 @@ video {
 #root .bottom-0{
 	bottom: 0px;
 }
-#root .-left-64{
-	left: -16rem;
-}
-#root .top-0{
-	top: 0px;
-}
-#root .bottom-0{
-	bottom: 0px;
-}
-#root .-left-64{
-	left: -16rem;
-}
-#root .top-0{
-	top: 0px;
-}
-#root .bottom-0{
-	bottom: 0px;
-}
 #root .z-50{
 	z-index: 50;
 }
 #root .z-10{
 	z-index: 10;
-	z-index: 10;
-	z-index: 10;
 }
 #root .mx-auto{
 	margin-left: auto;
@@ -570,62 +534,6 @@ video {
 #root .my-4{
 	margin-top: 1rem;
 	margin-bottom: 1rem;
-}
-#root .my-6{
-	margin-top: 1.5rem;
-	margin-bottom: 1.5rem;
-}
-#root .my-3{
-	margin-top: 0.75rem;
-	margin-bottom: 0.75rem;
-}
-#root .my-4{
-	margin-top: 1rem;
-	margin-bottom: 1rem;
-	margin-top: 1rem;
-	margin-bottom: 1rem;
-}
-#root .mx-auto{
-	margin-left: auto;
-	margin-right: auto;
-	margin-left: auto;
-	margin-right: auto;
-	margin-left: auto;
-	margin-right: auto;
-	margin-left: auto;
-	margin-right: auto;
-	margin-left: auto;
-	margin-right: auto;
-	margin-left: auto;
-	margin-right: auto;
-	margin-left: auto;
-	margin-right: auto;
-	margin-left: auto;
-	margin-right: auto;
-	margin-left: auto;
-	margin-right: auto;
-	margin-left: auto;
-	margin-right: auto;
-	margin-left: auto;
-	margin-right: auto;
-	margin-left: auto;
-	margin-right: auto;
-	margin-left: auto;
-	margin-right: auto;
-	margin-left: auto;
-	margin-right: auto;
-	margin-left: auto;
-	margin-right: auto;
-	margin-left: auto;
-	margin-right: auto;
-	margin-left: auto;
-	margin-right: auto;
-	margin-left: auto;
-	margin-right: auto;
-	margin-left: auto;
-	margin-right: auto;
-	margin-left: auto;
-	margin-right: auto;
 }
 #root .mt-1{
 	margin-top: 0.25rem;
@@ -669,375 +577,6 @@ video {
 #root .mr-6{
 	margin-right: 1.5rem;
 }
-#root .-mt-24{
-	margin-top: -6rem;
-}
-#root .mt-0{
-	margin-top: 0px;
-}
-#root .-mt-8{
-	margin-top: -2rem;
-}
-#root .mt-5{
-	margin-top: 1.25rem;
-}
-#root .mt-3{
-	margin-top: 0.75rem;
-}
-#root .mt-2{
-	margin-top: 0.5rem;
-}
-#root .mb-4{
-	margin-bottom: 1rem;
-}
-#root .mr-2{
-	margin-right: 0.5rem;
-}
-#root .-ml-4{
-	margin-left: -1rem;
-}
-#root .mb-14{
-	margin-bottom: 3.5rem;
-}
-#root .mt-2{
-	margin-top: 0.5rem;
-}
-#root .mb-4{
-	margin-bottom: 1rem;
-}
-#root .mb-2{
-	margin-bottom: 0.5rem;
-}
-#root .mb-4{
-	margin-bottom: 1rem;
-}
-#root .mb-2{
-	margin-bottom: 0.5rem;
-}
-#root .-mt-24{
-	margin-top: -6rem;
-}
-#root .mb-14{
-	margin-bottom: 3.5rem;
-}
-#root .mb-4{
-	margin-bottom: 1rem;
-}
-#root .-mt-24{
-	margin-top: -6rem;
-}
-#root .mb-14{
-	margin-bottom: 3.5rem;
-}
-#root .mb-4{
-	margin-bottom: 1rem;
-}
-#root .-mt-24{
-	margin-top: -6rem;
-}
-#root .mb-14{
-	margin-bottom: 3.5rem;
-}
-#root .mb-4{
-	margin-bottom: 1rem;
-}
-#root .ml-\[50px\]{
-	margin-left: 50px;
-}
-#root .-mt-24{
-	margin-top: -6rem;
-}
-#root .mb-14{
-	margin-bottom: 3.5rem;
-}
-#root .mb-4{
-	margin-bottom: 1rem;
-}
-#root .ml-\[50px\]{
-	margin-left: 50px;
-}
-#root .mt-\[-50px\]{
-	margin-top: -50px;
-}
-#root .-mt-24{
-	margin-top: -6rem;
-}
-#root .mb-14{
-	margin-bottom: 3.5rem;
-}
-#root .mb-4{
-	margin-bottom: 1rem;
-}
-#root .ml-\[30px\]{
-	margin-left: 30px;
-}
-#root .mt-\[-50px\]{
-	margin-top: -50px;
-}
-#root .-mt-24{
-	margin-top: -6rem;
-}
-#root .mb-14{
-	margin-bottom: 3.5rem;
-}
-#root .mb-4{
-	margin-bottom: 1rem;
-}
-#root .ml-\[30px\]{
-	margin-left: 30px;
-}
-#root .mt-\[-50px\]{
-	margin-top: -50px;
-}
-#root .mb-\[50px\]{
-	margin-bottom: 50px;
-}
-#root .-mt-24{
-	margin-top: -6rem;
-}
-#root .mb-14{
-	margin-bottom: 3.5rem;
-}
-#root .mb-4{
-	margin-bottom: 1rem;
-}
-#root .ml-\[30px\]{
-	margin-left: 30px;
-}
-#root .mt-\[-50px\]{
-	margin-top: -50px;
-}
-#root .mb-\[30px\]{
-	margin-bottom: 30px;
-}
-#root .-mt-24{
-	margin-top: -6rem;
-}
-#root .mb-14{
-	margin-bottom: 3.5rem;
-}
-#root .mb-4{
-	margin-bottom: 1rem;
-}
-#root .ml-\[25px\]{
-	margin-left: 25px;
-}
-#root .mt-\[-50px\]{
-	margin-top: -50px;
-}
-#root .mb-\[30px\]{
-	margin-bottom: 30px;
-}
-#root .-mt-24{
-	margin-top: -6rem;
-}
-#root .mb-14{
-	margin-bottom: 3.5rem;
-}
-#root .mb-4{
-	margin-bottom: 1rem;
-}
-#root .ml-\[28px\]{
-	margin-left: 28px;
-}
-#root .mt-\[-50px\]{
-	margin-top: -50px;
-}
-#root .mb-\[30px\]{
-	margin-bottom: 30px;
-}
-#root .-mt-24{
-	margin-top: -6rem;
-}
-#root .mb-14{
-	margin-bottom: 3.5rem;
-}
-#root .mb-4{
-	margin-bottom: 1rem;
-}
-#root .ml-\[30px\]{
-	margin-left: 30px;
-}
-#root .mt-\[-40px\]{
-	margin-top: -40px;
-}
-#root .mb-\[30px\]{
-	margin-bottom: 30px;
-}
-#root .-mt-24{
-	margin-top: -6rem;
-}
-#root .mb-14{
-	margin-bottom: 3.5rem;
-}
-#root .mb-4{
-	margin-bottom: 1rem;
-}
-#root .ml-\[30px\]{
-	margin-left: 30px;
-}
-#root .mt-\[-40px\]{
-	margin-top: -40px;
-}
-#root .mb-\[40px\]{
-	margin-bottom: 40px;
-}
-#root .-mt-24{
-	margin-top: -6rem;
-}
-#root .mb-14{
-	margin-bottom: 3.5rem;
-}
-#root .mb-4{
-	margin-bottom: 1rem;
-}
-#root .ml-\[30px\]{
-	margin-left: 30px;
-}
-#root .mt-\[-40px\]{
-	margin-top: -40px;
-}
-#root .mb-\[40px\]{
-	margin-bottom: 40px;
-}
-#root .-mt-24{
-	margin-top: -6rem;
-}
-#root .mb-14{
-	margin-bottom: 3.5rem;
-}
-#root .mb-4{
-	margin-bottom: 1rem;
-}
-#root .ml-\[30px\]{
-	margin-left: 30px;
-}
-#root .mt-\[-40px\]{
-	margin-top: -40px;
-}
-#root .mb-\[40px\]{
-	margin-bottom: 40px;
-}
-#root .-mt-24{
-	margin-top: -6rem;
-}
-#root .mb-14{
-	margin-bottom: 3.5rem;
-}
-#root .mb-4{
-	margin-bottom: 1rem;
-}
-#root .ml-\[30px\]{
-	margin-left: 30px;
-}
-#root .mt-\[-40px\]{
-	margin-top: -40px;
-}
-#root .mb-\[40px\]{
-	margin-bottom: 40px;
-}
-#root .-mt-24{
-	margin-top: -6rem;
-}
-#root .mb-14{
-	margin-bottom: 3.5rem;
-}
-#root .mb-4{
-	margin-bottom: 1rem;
-}
-#root .ml-\[30px\]{
-	margin-left: 30px;
-}
-#root .mt-\[-40px\]{
-	margin-top: -40px;
-}
-#root .mb-\[40px\]{
-	margin-bottom: 40px;
-}
-#root .-mt-24{
-	margin-top: -6rem;
-}
-#root .mb-14{
-	margin-bottom: 3.5rem;
-}
-#root .mb-4{
-	margin-bottom: 1rem;
-}
-#root .ml-\[30px\]{
-	margin-left: 30px;
-}
-#root .mt-\[-40px\]{
-	margin-top: -40px;
-}
-#root .mb-\[40px\]{
-	margin-bottom: 40px;
-}
-#root .mt-\[5px\]{
-	margin-top: 5px;
-}
-#root .-mt-24{
-	margin-top: -6rem;
-}
-#root .mb-14{
-	margin-bottom: 3.5rem;
-}
-#root .mb-4{
-	margin-bottom: 1rem;
-}
-#root .ml-\[30px\]{
-	margin-left: 30px;
-}
-#root .mt-\[-40px\]{
-	margin-top: -40px;
-}
-#root .mb-\[40px\]{
-	margin-bottom: 40px;
-}
-#root .mt-\[50px\]{
-	margin-top: 50px;
-}
-#root .-mt-24{
-	margin-top: -6rem;
-}
-#root .mb-14{
-	margin-bottom: 3.5rem;
-}
-#root .mb-4{
-	margin-bottom: 1rem;
-}
-#root .ml-\[30px\]{
-	margin-left: 30px;
-}
-#root .mt-\[-40px\]{
-	margin-top: -40px;
-}
-#root .mb-\[40px\]{
-	margin-bottom: 40px;
-}
-#root .ml-\[35px\]{
-	margin-left: 35px;
-}
-#root .mt-\[10px\]{
-	margin-top: 10px;
-}
-#root .-mt-24{
-	margin-top: -6rem;
-}
-#root .mb-14{
-	margin-bottom: 3.5rem;
-}
-#root .mb-4{
-	margin-bottom: 1rem;
-}
-#root .mt-\[-30px\]{
-	margin-top: -30px;
-}
-#root .-mt-24{
-	margin-top: -6rem;
-}
-#root .mb-14{
-	margin-bottom: 3.5rem;
-}
 #root .mb-4{
 	margin-bottom: 1rem;
 }
@@ -1050,42 +589,19 @@ video {
 #root .ml-\[29px\]{
 	margin-left: 29px;
 }
+#root .-mt-24{
+	margin-top: -6rem;
+}
+#root .mb-14{
+	margin-bottom: 3.5rem;
+}
 #root .block{
 	display: block;
 }
-#root .inline-block{
-	display: inline-block;
-	display: inline-block;
-}
 #root .flex{
 	display: flex;
-	display: flex;
-	display: flex;
-}
-#root .table{
-	display: table;
 }
 #root .grid{
-	display: grid;
-	display: grid;
-	display: grid;
-	display: grid;
-	display: grid;
-	display: grid;
-	display: grid;
-	display: grid;
-	display: grid;
-	display: grid;
-	display: grid;
-	display: grid;
-	display: grid;
-	display: grid;
-	display: grid;
-	display: grid;
-	display: grid;
-	display: grid;
-	display: grid;
-	display: grid;
 	display: grid;
 }
 #root .h-96{
@@ -1094,134 +610,10 @@ video {
 #root .h-40{
 	height: 10rem;
 }
-#root .h-full{
-	height: 100%;
-}
 #root .h-screen{
 	height: 100vh;
-}
-#root .h-10{
-	height: 2.5rem;
-}
-#root .h-screen{
-	height: 100vh;
-	height: 100vh;
-}
-#root .h-40{
-	height: 10rem;
-}
-#root .h-\[50px\]{
-	height: 50px;
-}
-#root .h-40{
-	height: 10rem;
-}
-#root .h-\[50px\]{
-	height: 50px;
-}
-#root .h-40{
-	height: 10rem;
-}
-#root .h-\[50px\]{
-	height: 50px;
-}
-#root .h-40{
-	height: 10rem;
-}
-#root .h-\[50px\]{
-	height: 50px;
-}
-#root .h-40{
-	height: 10rem;
-}
-#root .h-\[50px\]{
-	height: 50px;
-}
-#root .h-40{
-	height: 10rem;
-}
-#root .h-\[50px\]{
-	height: 50px;
-}
-#root .h-40{
-	height: 10rem;
-}
-#root .h-\[50px\]{
-	height: 50px;
-}
-#root .h-40{
-	height: 10rem;
-}
-#root .h-\[50px\]{
-	height: 50px;
-}
-#root .h-40{
-	height: 10rem;
-}
-#root .h-\[50px\]{
-	height: 50px;
-}
-#root .h-40{
-	height: 10rem;
-}
-#root .h-\[50px\]{
-	height: 50px;
-}
-#root .h-40{
-	height: 10rem;
-}
-#root .h-\[50px\]{
-	height: 50px;
-}
-#root .h-40{
-	height: 10rem;
-}
-#root .h-\[50px\]{
-	height: 50px;
-}
-#root .h-40{
-	height: 10rem;
-}
-#root .h-\[50px\]{
-	height: 50px;
-}
-#root .h-40{
-	height: 10rem;
-}
-#root .h-\[40px\]{
-	height: 40px;
-}
-#root .h-40{
-	height: 10rem;
-}
-#root .h-\[40px\]{
-	height: 40px;
-}
-#root .h-40{
-	height: 10rem;
-}
-#root .h-\[40px\]{
-	height: 40px;
-}
-#root .h-40{
-	height: 10rem;
-}
-#root .h-\[40px\]{
-	height: 40px;
-}
-#root .h-40{
-	height: 10rem;
-}
-#root .h-\[40px\]{
-	height: 40px;
-}
-#root .h-40{
-	height: 10rem;
-	height: 10rem;
 }
 #root .min-h-full{
-	min-height: 100%;
-	min-height: 100%;
 	min-height: 100%;
 }
 #root .w-full{
@@ -1233,250 +625,63 @@ video {
 #root .w-1\/2{
 	width: 50%;
 }
-#root .w-48{
-	width: 12rem;
-}
 #root .w-64{
 	width: 16rem;
-}
-#root .w-10{
-	width: 2.5rem;
-}
-#root .w-56{
-	width: 14rem;
-}
-#root .w-64{
-	width: 16rem;
-}
-#root .w-full{
-	width: 100%;
-}
-#root .w-64{
-	width: 16rem;
-}
-#root .w-\[50px\]{
-	width: 50px;
-	width: 50px;
-	width: 50px;
-	width: 50px;
-	width: 50px;
-	width: 50px;
-	width: 50px;
-}
-#root .w-full{
-	width: 100%;
-	width: 100%;
-	width: 100%;
-	width: 100%;
-}
-#root .w-\[80px\]{
-	width: 80px;
-}
-#root .w-\[100px\]{
-	width: 100px;
-	width: 100px;
-}
-#root .w-\[150px\]{
-	width: 150px;
-	width: 150px;
-	width: 150px;
-	width: 150px;
 }
 #root .min-w-full{
-	min-width: 100%;
-	min-width: 100%;
 	min-width: 100%;
 }
 #root .max-w-full{
 	max-width: 100%;
-	max-width: 100%;
-	max-width: 100%;
-	max-width: 100%;
-	max-width: 100%;
-	max-width: 100%;
-	max-width: 100%;
-	max-width: 100%;
-	max-width: 100%;
-	max-width: 100%;
-	max-width: 100%;
-	max-width: 100%;
-	max-width: 100%;
-	max-width: 100%;
-	max-width: 100%;
-	max-width: 100%;
-	max-width: 100%;
-	max-width: 100%;
-	max-width: 100%;
-	max-width: 100%;
-	max-width: 100%;
-}
-#root .border-collapse{
-	border-collapse: collapse;
 }
 #root .list-none{
-	list-style-type: none;
-	list-style-type: none;
 	list-style-type: none;
 }
 #root .grid-cols-1{
 	grid-template-columns: repeat(1, minmax(0, 1fr));
-	grid-template-columns: repeat(1, minmax(0, 1fr));
-	grid-template-columns: repeat(1, minmax(0, 1fr));
-	grid-template-columns: repeat(1, minmax(0, 1fr));
-	grid-template-columns: repeat(1, minmax(0, 1fr));
-	grid-template-columns: repeat(1, minmax(0, 1fr));
-	grid-template-columns: repeat(1, minmax(0, 1fr));
-	grid-template-columns: repeat(1, minmax(0, 1fr));
-	grid-template-columns: repeat(1, minmax(0, 1fr));
-	grid-template-columns: repeat(1, minmax(0, 1fr));
-	grid-template-columns: repeat(1, minmax(0, 1fr));
-	grid-template-columns: repeat(1, minmax(0, 1fr));
-	grid-template-columns: repeat(1, minmax(0, 1fr));
-	grid-template-columns: repeat(1, minmax(0, 1fr));
-	grid-template-columns: repeat(1, minmax(0, 1fr));
-	grid-template-columns: repeat(1, minmax(0, 1fr));
-	grid-template-columns: repeat(1, minmax(0, 1fr));
-	grid-template-columns: repeat(1, minmax(0, 1fr));
-	grid-template-columns: repeat(1, minmax(0, 1fr));
-	grid-template-columns: repeat(1, minmax(0, 1fr));
-	grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 #root .flex-col{
 	flex-direction: column;
 }
 #root .flex-row{
 	flex-direction: row;
-	flex-direction: row;
-}
-#root .flex-col{
-	flex-direction: column;
-}
-#root .flex-row{
-	flex-direction: row;
-}
-#root .flex-col{
-	flex-direction: column;
-}
-#root .flex-wrap{
-	flex-wrap: wrap;
 }
 #root .flex-nowrap{
 	flex-wrap: nowrap;
-	flex-wrap: nowrap;
-	flex-wrap: nowrap;
 }
 #root .items-center{
 	align-items: center;
 }
 #root .items-stretch{
 	align-items: stretch;
-	align-items: stretch;
-}
-#root .items-center{
-	align-items: center;
-}
-#root .items-stretch{
-	align-items: stretch;
-}
-#root .items-center{
-	align-items: center;
 }
 #root .justify-between{
 	justify-content: space-between;
 }
-#root .justify-center{
-	justify-content: center;
-	justify-content: center;
-	justify-content: center;
-}
 #root .gap-3{
 	gap: 0.75rem;
 }
-#root .gap-2{
-	gap: 0.5rem;
-}
 #root .gap-4{
 	gap: 1rem;
-	gap: 1rem;
-	gap: 1rem;
 }
 #root .overflow-y-auto{
 	overflow-y: auto;
 }
 #root .overflow-hidden{
 	overflow: hidden;
-}
-#root .overflow-x-auto{
-	overflow-x: auto;
-}
-#root .overflow-y-auto{
-	overflow-y: auto;
-}
-#root .overflow-hidden{
-	overflow: hidden;
-}
-#root .overflow-y-auto{
-	overflow-y: auto;
-}
-#root .overflow-hidden{
-	overflow: hidden;
-}
-#root .whitespace-nowrap{
-	white-space: nowrap;
 }
 #root .rounded{
 	border-radius: 0.25rem;
 }
 #root .rounded-lg{
 	border-radius: 0.5rem;
-}
-#root .rounded-xl{
-	border-radius: 0.75rem;
-}
-#root .rounded-full{
-	border-radius: 9999px;
-}
-#root .rounded-lg{
-	border-radius: 0.5rem;
-	border-radius: 0.5rem;
-}
-#root .rounded{
-	border-radius: 0.25rem;
-	border-radius: 0.25rem;
-	border-radius: 0.25rem;
-	border-radius: 0.25rem;
-	border-radius: 0.25rem;
-	border-radius: 0.25rem;
-	border-radius: 0.25rem;
-	border-radius: 0.25rem;
-	border-radius: 0.25rem;
-	border-radius: 0.25rem;
-	border-radius: 0.25rem;
-	border-radius: 0.25rem;
-	border-radius: 0.25rem;
-	border-radius: 0.25rem;
-	border-radius: 0.25rem;
-	border-radius: 0.25rem;
-}
-#root .border-2{
-	border-width: 2px;
 }
 #root .border-t{
 	border-top-width: 1px;
 }
-#root .border-b{
-	border-bottom-width: 1px;
-}
-#root .border-solid{
-	border-style: solid;
-}
 #root .border-gray-200{
 	--tw-border-opacity: 1;
 	border-color: rgba(229, 231, 235, var(--tw-border-opacity));
-}
-#root .border-white{
-	--tw-border-opacity: 1;
-	border-color: rgba(255, 255, 255, var(--tw-border-opacity));
 }
 #root .bg-gray-100{
 	--tw-bg-opacity: 1;
@@ -1486,113 +691,12 @@ video {
 	--tw-bg-opacity: 1;
 	background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
 }
-#root .bg-gray-200{
-	--tw-bg-opacity: 1;
-	background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
-}
 #root .bg-white{
 	--tw-bg-opacity: 1;
 	background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
-}
-#root .bg-transparent{
-	background-color: transparent;
-}
-#root .bg-white{
-	--tw-bg-opacity: 1;
-	background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
-	--tw-bg-opacity: 1;
-	background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
-}
-#root .bg-gray-100{
-	--tw-bg-opacity: 1;
-	background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
-	--tw-bg-opacity: 1;
-	background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
-}
-#root .bg-blue-500{
-	--tw-bg-opacity: 1;
-	background-color: rgba(59, 130, 246, var(--tw-bg-opacity));
-}
-#root .bg-gray-100{
-	--tw-bg-opacity: 1;
-	background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
-}
-#root .bg-blue-500{
-	--tw-bg-opacity: 1;
-	background-color: rgba(59, 130, 246, var(--tw-bg-opacity));
-}
-#root .bg-gray-100{
-	--tw-bg-opacity: 1;
-	background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
-}
-#root .bg-blue-500{
-	--tw-bg-opacity: 1;
-	background-color: rgba(59, 130, 246, var(--tw-bg-opacity));
-}
-#root .bg-gray-100{
-	--tw-bg-opacity: 1;
-	background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
-}
-#root .bg-blue-500{
-	--tw-bg-opacity: 1;
-	background-color: rgba(59, 130, 246, var(--tw-bg-opacity));
-}
-#root .bg-gray-100{
-	--tw-bg-opacity: 1;
-	background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
-	--tw-bg-opacity: 1;
-	background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
-	--tw-bg-opacity: 1;
-	background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
-	--tw-bg-opacity: 1;
-	background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
-	--tw-bg-opacity: 1;
-	background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
-	--tw-bg-opacity: 1;
-	background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
-	--tw-bg-opacity: 1;
-	background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
-	--tw-bg-opacity: 1;
-	background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
-	--tw-bg-opacity: 1;
-	background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
-	--tw-bg-opacity: 1;
-	background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
-	--tw-bg-opacity: 1;
-	background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
-	--tw-bg-opacity: 1;
-	background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
-	--tw-bg-opacity: 1;
-	background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
-	--tw-bg-opacity: 1;
-	background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
-	--tw-bg-opacity: 1;
-	background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
 }
 #root .bg-gradient-to-tr{
 	background-image: linear-gradient(to top right, var(--tw-gradient-stops));
-	background-image: linear-gradient(to top right, var(--tw-gradient-stops));
-	background-image: linear-gradient(to top right, var(--tw-gradient-stops));
-}
-#root .from-blue-500{
-	--tw-gradient-from: #3b82f6;
-	--tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(59, 130, 246, 0));
-}
-#root .from-purple-500{
-	--tw-gradient-from: #8b5cf6;
-	--tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(139, 92, 246, 0));
-	--tw-gradient-from: #8b5cf6;
-	--tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(139, 92, 246, 0));
-}
-#root .to-blue-700{
-	--tw-gradient-to: #1d4ed8;
-}
-#root .to-purple-700{
-	--tw-gradient-to: #6d28d9;
-	--tw-gradient-to: #6d28d9;
-}
-#root .p-4{
-	padding: 1rem;
 }
 #root .py-6{
 	padding-top: 1.5rem;
@@ -1618,10 +722,6 @@ video {
 	padding-top: 1rem;
 	padding-bottom: 1rem;
 }
-#root .px-2{
-	padding-left: 0.5rem;
-	padding-right: 0.5rem;
-}
 #root .px-6{
 	padding-left: 1.5rem;
 	padding-right: 1.5rem;
@@ -1633,227 +733,6 @@ video {
 #root .py-3{
 	padding-top: 0.75rem;
 	padding-bottom: 0.75rem;
-}
-#root .py-4{
-	padding-top: 1rem;
-	padding-bottom: 1rem;
-}
-#root .px-6{
-	padding-left: 1.5rem;
-	padding-right: 1.5rem;
-}
-#root .px-0{
-	padding-left: 0px;
-	padding-right: 0px;
-}
-#root .px-4{
-	padding-left: 1rem;
-	padding-right: 1rem;
-}
-#root .py-3{
-	padding-top: 0.75rem;
-	padding-bottom: 0.75rem;
-}
-#root .py-4{
-	padding-top: 1rem;
-	padding-bottom: 1rem;
-}
-#root .px-6{
-	padding-left: 1.5rem;
-	padding-right: 1.5rem;
-}
-#root .px-0{
-	padding-left: 0px;
-	padding-right: 0px;
-}
-#root .px-4{
-	padding-left: 1rem;
-	padding-right: 1rem;
-}
-#root .py-3{
-	padding-top: 0.75rem;
-	padding-bottom: 0.75rem;
-}
-#root .px-3{
-	padding-left: 0.75rem;
-	padding-right: 0.75rem;
-}
-#root .px-4{
-	padding-left: 1rem;
-	padding-right: 1rem;
-}
-#root .px-3{
-	padding-left: 0.75rem;
-	padding-right: 0.75rem;
-}
-#root .px-4{
-	padding-left: 1rem;
-	padding-right: 1rem;
-}
-#root .px-3{
-	padding-left: 0.75rem;
-	padding-right: 0.75rem;
-}
-#root .px-4{
-	padding-left: 1rem;
-	padding-right: 1rem;
-}
-#root .px-3{
-	padding-left: 0.75rem;
-	padding-right: 0.75rem;
-}
-#root .px-4{
-	padding-left: 1rem;
-	padding-right: 1rem;
-}
-#root .px-3{
-	padding-left: 0.75rem;
-	padding-right: 0.75rem;
-}
-#root .px-4{
-	padding-left: 1rem;
-	padding-right: 1rem;
-}
-#root .px-3{
-	padding-left: 0.75rem;
-	padding-right: 0.75rem;
-}
-#root .px-4{
-	padding-left: 1rem;
-	padding-right: 1rem;
-}
-#root .px-3{
-	padding-left: 0.75rem;
-	padding-right: 0.75rem;
-}
-#root .px-4{
-	padding-left: 1rem;
-	padding-right: 1rem;
-}
-#root .px-3{
-	padding-left: 0.75rem;
-	padding-right: 0.75rem;
-}
-#root .px-4{
-	padding-left: 1rem;
-	padding-right: 1rem;
-}
-#root .px-3{
-	padding-left: 0.75rem;
-	padding-right: 0.75rem;
-}
-#root .px-4{
-	padding-left: 1rem;
-	padding-right: 1rem;
-}
-#root .px-3{
-	padding-left: 0.75rem;
-	padding-right: 0.75rem;
-}
-#root .px-4{
-	padding-left: 1rem;
-	padding-right: 1rem;
-}
-#root .px-3{
-	padding-left: 0.75rem;
-	padding-right: 0.75rem;
-}
-#root .px-4{
-	padding-left: 1rem;
-	padding-right: 1rem;
-}
-#root .px-3{
-	padding-left: 0.75rem;
-	padding-right: 0.75rem;
-}
-#root .px-4{
-	padding-left: 1rem;
-	padding-right: 1rem;
-}
-#root .px-3{
-	padding-left: 0.75rem;
-	padding-right: 0.75rem;
-}
-#root .px-4{
-	padding-left: 1rem;
-	padding-right: 1rem;
-}
-#root .px-3{
-	padding-left: 0.75rem;
-	padding-right: 0.75rem;
-}
-#root .px-4{
-	padding-left: 1rem;
-	padding-right: 1rem;
-}
-#root .px-3{
-	padding-left: 0.75rem;
-	padding-right: 0.75rem;
-}
-#root .px-4{
-	padding-left: 1rem;
-	padding-right: 1rem;
-}
-#root .px-3{
-	padding-left: 0.75rem;
-	padding-right: 0.75rem;
-}
-#root .px-4{
-	padding-left: 1rem;
-	padding-right: 1rem;
-}
-#root .px-3{
-	padding-left: 0.75rem;
-	padding-right: 0.75rem;
-}
-#root .px-4{
-	padding-left: 1rem;
-	padding-right: 1rem;
-}
-#root .px-3{
-	padding-left: 0.75rem;
-	padding-right: 0.75rem;
-}
-#root .px-4{
-	padding-left: 1rem;
-	padding-right: 1rem;
-}
-#root .px-3{
-	padding-left: 0.75rem;
-	padding-right: 0.75rem;
-}
-#root .px-4{
-	padding-left: 1rem;
-	padding-right: 1rem;
-}
-#root .px-3{
-	padding-left: 0.75rem;
-	padding-right: 0.75rem;
-}
-#root .px-4{
-	padding-left: 1rem;
-	padding-right: 1rem;
-}
-#root .pt-8{
-	padding-top: 2rem;
-}
-#root .pr-4{
-	padding-right: 1rem;
-}
-#root .pl-4{
-	padding-left: 1rem;
-}
-#root .text-center{
-	text-align: center;
-}
-#root .text-left{
-	text-align: left;
-}
-#root .text-center{
-	text-align: center;
-}
-#root .align-middle{
-	vertical-align: middle;
 }
 #root .text-sm{
 	font-size: 0.875rem;
@@ -1867,22 +746,10 @@ video {
 	font-size: 1.5rem;
 	line-height: 2rem;
 }
-#root .text-xl{
-	font-size: 1.25rem;
-	line-height: 1.75rem;
-}
-#root .text-sm{
-	font-size: 0.875rem;
-	line-height: 1.25rem;
-	font-size: 0.875rem;
-	line-height: 1.25rem;
-}
 #root .font-medium{
 	font-weight: 500;
 }
 #root .font-light{
-	font-weight: 300;
-	font-weight: 300;
 	font-weight: 300;
 }
 #root .uppercase{
@@ -1890,9 +757,6 @@ video {
 }
 #root .tracking-wider{
 	letter-spacing: 0.05em;
-}
-#root .tracking-wide{
-	letter-spacing: 0.025em;
 }
 #root .text-white{
 	--tw-text-opacity: 1;
@@ -1910,82 +774,23 @@ video {
 	--tw-text-opacity: 1;
 	color: rgba(55, 65, 81, var(--tw-text-opacity));
 }
-#root .text-gray-900{
-	--tw-text-opacity: 1;
-	color: rgba(17, 24, 39, var(--tw-text-opacity));
-}
-#root .text-blue-500{
-	--tw-text-opacity: 1;
-	color: rgba(59, 130, 246, var(--tw-text-opacity));
-}
-#root .text-purple-500{
-	--tw-text-opacity: 1;
-	color: rgba(139, 92, 246, var(--tw-text-opacity));
-}
-#root .text-gray-700{
-	--tw-text-opacity: 1;
-	color: rgba(55, 65, 81, var(--tw-text-opacity));
-}
-#root .text-white{
-	--tw-text-opacity: 1;
-	color: rgba(255, 255, 255, var(--tw-text-opacity));
-}
-#root .text-gray-700{
-	--tw-text-opacity: 1;
-	color: rgba(55, 65, 81, var(--tw-text-opacity));
-}
-#root .text-white{
-	--tw-text-opacity: 1;
-	color: rgba(255, 255, 255, var(--tw-text-opacity));
-}
-#root .text-black{
-	--tw-text-opacity: 1;
-	color: rgba(0, 0, 0, var(--tw-text-opacity));
-}
-#root .shadow-md{
-	--tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-	box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-#root .shadow-lg{
-	--tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-	box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-#root .shadow-xl{
-	--tw-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-	box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-	--tw-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-	box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
 #root .shadow-md{
 	--tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 	box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 #root .shadow-xl{
 	--tw-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-	box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-#root .shadow-md{
-	--tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 	box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 #root .ring-offset-blue-900{
-	--tw-ring-offset-color: #1e3a8a;
 	--tw-ring-offset-color: #1e3a8a;
 }
 #root .transition-all{
 	transition-property: all;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 	transition-duration: 150ms;
-	transition-property: all;
-	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-	transition-duration: 150ms;
-	transition-property: all;
-	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-	transition-duration: 150ms;
 }
 #root .duration-300{
-	transition-duration: 300ms;
-	transition-duration: 300ms;
 	transition-duration: 300ms;
 }
 .tippy-box[data-placement^=top]>.tippy-svg-arrow{bottom:0}
@@ -3536,97 +2341,11 @@ video {
 	#root .md\:left-0{
 		left: 0px;
 	}
-	#root .md\:left-0{
-		left: 0px;
-	}
-	#root .md\:left-0{
-		left: 0px;
-	}
 	#root .md\:ml-64{
 		margin-left: 16rem;
 	}
 	#root .md\:hidden{
 		display: none;
-	}
-	#root .md\:px-8{
-		padding-left: 2rem;
-		padding-right: 2rem;
-	}
-	#root .md\:px-8{
-		padding-left: 2rem;
-		padding-right: 2rem;
-	}
-	#root .md\:px-8{
-		padding-left: 2rem;
-		padding-right: 2rem;
-	}
-	#root .md\:px-8{
-		padding-left: 2rem;
-		padding-right: 2rem;
-	}
-	#root .md\:px-8{
-		padding-left: 2rem;
-		padding-right: 2rem;
-	}
-	#root .md\:px-8{
-		padding-left: 2rem;
-		padding-right: 2rem;
-	}
-	#root .md\:px-8{
-		padding-left: 2rem;
-		padding-right: 2rem;
-	}
-	#root .md\:px-8{
-		padding-left: 2rem;
-		padding-right: 2rem;
-	}
-	#root .md\:px-8{
-		padding-left: 2rem;
-		padding-right: 2rem;
-	}
-	#root .md\:px-8{
-		padding-left: 2rem;
-		padding-right: 2rem;
-	}
-	#root .md\:px-8{
-		padding-left: 2rem;
-		padding-right: 2rem;
-	}
-	#root .md\:px-8{
-		padding-left: 2rem;
-		padding-right: 2rem;
-	}
-	#root .md\:px-8{
-		padding-left: 2rem;
-		padding-right: 2rem;
-	}
-	#root .md\:px-8{
-		padding-left: 2rem;
-		padding-right: 2rem;
-	}
-	#root .md\:px-8{
-		padding-left: 2rem;
-		padding-right: 2rem;
-	}
-	#root .md\:px-8{
-		padding-left: 2rem;
-		padding-right: 2rem;
-	}
-	#root .md\:px-8{
-		padding-left: 2rem;
-		padding-right: 2rem;
-	}
-	#root .md\:px-8{
-		padding-left: 2rem;
-		padding-right: 2rem;
-	}
-	#root .md\:px-8{
-		padding-left: 2rem;
-		padding-right: 2rem;
-	}
-	#root .md\:px-8{
-		padding-left: 2rem;
-		padding-right: 2rem;
 	}
 	#root .md\:px-8{
 		padding-left: 2rem;
@@ -3643,80 +2362,11 @@ video {
 	#root .lg\:mb-0{
 		margin-bottom: 0px;
 	}
-	#root .lg\:w-6\/12{
-		width: 50%;
-	}
-	#root .lg\:w-4\/12{
-		width: 33.333333%;
-	}
-	#root .lg\:grid-cols-2{
-		grid-template-columns: repeat(2, minmax(0, 1fr));
-	}
-	#root .lg\:grid-cols-2{
-		grid-template-columns: repeat(2, minmax(0, 1fr));
-	}
-	#root .lg\:grid-cols-2{
-		grid-template-columns: repeat(2, minmax(0, 1fr));
-	}
-	#root .lg\:grid-cols-2{
-		grid-template-columns: repeat(2, minmax(0, 1fr));
-	}
-	#root .lg\:grid-cols-2{
-		grid-template-columns: repeat(2, minmax(0, 1fr));
-	}
-	#root .lg\:grid-cols-2{
-		grid-template-columns: repeat(2, minmax(0, 1fr));
-	}
-	#root .lg\:grid-cols-2{
-		grid-template-columns: repeat(2, minmax(0, 1fr));
-	}
-	#root .lg\:grid-cols-2{
-		grid-template-columns: repeat(2, minmax(0, 1fr));
-	}
-	#root .lg\:grid-cols-2{
-		grid-template-columns: repeat(2, minmax(0, 1fr));
-	}
-	#root .lg\:grid-cols-2{
-		grid-template-columns: repeat(2, minmax(0, 1fr));
-	}
-	#root .lg\:grid-cols-2{
-		grid-template-columns: repeat(2, minmax(0, 1fr));
-	}
-	#root .lg\:grid-cols-2{
-		grid-template-columns: repeat(2, minmax(0, 1fr));
-	}
-	#root .lg\:grid-cols-2{
-		grid-template-columns: repeat(2, minmax(0, 1fr));
-	}
-	#root .lg\:grid-cols-2{
-		grid-template-columns: repeat(2, minmax(0, 1fr));
-	}
-	#root .lg\:grid-cols-2{
-		grid-template-columns: repeat(2, minmax(0, 1fr));
-	}
-	#root .lg\:grid-cols-2{
-		grid-template-columns: repeat(2, minmax(0, 1fr));
-	}
-	#root .lg\:grid-cols-2{
-		grid-template-columns: repeat(2, minmax(0, 1fr));
-	}
-	#root .lg\:grid-cols-2{
-		grid-template-columns: repeat(2, minmax(0, 1fr));
-	}
-	#root .lg\:grid-cols-2{
-		grid-template-columns: repeat(2, minmax(0, 1fr));
-	}
-	#root .lg\:grid-cols-2{
-		grid-template-columns: repeat(2, minmax(0, 1fr));
-	}
 	#root .lg\:grid-cols-2{
 		grid-template-columns: repeat(2, minmax(0, 1fr));
 	}
 	#root .lg\:flex-row{
 		flex-direction: row;
-	}
-	#root .lg\:pt-4{
-		padding-top: 1rem;
 	}
 }
 @media (min-width: 1280px){
@@ -3726,376 +2376,16 @@ video {
 	#root .xl\:col-end-6{
 		grid-column-end: 6;
 	}
-	#root .xl\:col-end-4{
-		grid-column-end: 4;
-	}
-	#root .xl\:col-end-6{
-		grid-column-end: 6;
-	}
-	#root .xl\:col-end-4{
-		grid-column-end: 4;
-	}
-	#root .xl\:col-end-6{
-		grid-column-end: 6;
-	}
-	#root .xl\:col-end-4{
-		grid-column-end: 4;
-	}
-	#root .xl\:col-end-6{
-		grid-column-end: 6;
-	}
-	#root .xl\:col-end-4{
-		grid-column-end: 4;
-	}
-	#root .xl\:col-end-6{
-		grid-column-end: 6;
-	}
-	#root .xl\:col-end-4{
-		grid-column-end: 4;
-	}
-	#root .xl\:col-end-6{
-		grid-column-end: 6;
-	}
-	#root .xl\:col-end-4{
-		grid-column-end: 4;
-	}
-	#root .xl\:col-end-6{
-		grid-column-end: 6;
-	}
-	#root .xl\:col-end-4{
-		grid-column-end: 4;
-	}
-	#root .xl\:col-end-6{
-		grid-column-end: 6;
-	}
-	#root .xl\:col-end-4{
-		grid-column-end: 4;
-	}
-	#root .xl\:col-end-6{
-		grid-column-end: 6;
-	}
-	#root .xl\:col-end-4{
-		grid-column-end: 4;
-	}
-	#root .xl\:col-end-6{
-		grid-column-end: 6;
-	}
-	#root .xl\:col-end-4{
-		grid-column-end: 4;
-	}
-	#root .xl\:col-end-6{
-		grid-column-end: 6;
-	}
-	#root .xl\:col-end-4{
-		grid-column-end: 4;
-	}
-	#root .xl\:col-end-6{
-		grid-column-end: 6;
-	}
-	#root .xl\:col-end-4{
-		grid-column-end: 4;
-	}
-	#root .xl\:col-end-6{
-		grid-column-end: 6;
-	}
-	#root .xl\:col-end-4{
-		grid-column-end: 4;
-	}
-	#root .xl\:col-end-6{
-		grid-column-end: 6;
-	}
-	#root .xl\:col-end-4{
-		grid-column-end: 4;
-	}
-	#root .xl\:col-end-6{
-		grid-column-end: 6;
-	}
-	#root .xl\:col-end-4{
-		grid-column-end: 4;
-	}
-	#root .xl\:col-end-6{
-		grid-column-end: 6;
-	}
-	#root .xl\:col-end-4{
-		grid-column-end: 4;
-	}
-	#root .xl\:col-end-6{
-		grid-column-end: 6;
-	}
-	#root .xl\:col-end-4{
-		grid-column-end: 4;
-	}
-	#root .xl\:col-end-6{
-		grid-column-end: 6;
-	}
-	#root .xl\:col-end-4{
-		grid-column-end: 4;
-	}
-	#root .xl\:col-end-6{
-		grid-column-end: 6;
-	}
-	#root .xl\:col-end-4{
-		grid-column-end: 4;
-	}
-	#root .xl\:col-end-6{
-		grid-column-end: 6;
-	}
-	#root .xl\:col-end-4{
-		grid-column-end: 4;
-	}
-	#root .xl\:col-end-6{
-		grid-column-end: 6;
-	}
 	#root .xl\:col-start-1{
 		grid-column-start: 1;
 	}
 	#root .xl\:col-start-4{
 		grid-column-start: 4;
 	}
-	#root .xl\:col-start-1{
-		grid-column-start: 1;
-	}
-	#root .xl\:col-start-4{
-		grid-column-start: 4;
-	}
-	#root .xl\:col-start-1{
-		grid-column-start: 1;
-	}
-	#root .xl\:col-start-4{
-		grid-column-start: 4;
-	}
-	#root .xl\:col-start-1{
-		grid-column-start: 1;
-	}
-	#root .xl\:col-start-4{
-		grid-column-start: 4;
-	}
-	#root .xl\:col-start-1{
-		grid-column-start: 1;
-	}
-	#root .xl\:col-start-4{
-		grid-column-start: 4;
-	}
-	#root .xl\:col-start-1{
-		grid-column-start: 1;
-	}
-	#root .xl\:col-start-4{
-		grid-column-start: 4;
-	}
-	#root .xl\:col-start-1{
-		grid-column-start: 1;
-	}
-	#root .xl\:col-start-4{
-		grid-column-start: 4;
-	}
-	#root .xl\:col-start-1{
-		grid-column-start: 1;
-	}
-	#root .xl\:col-start-4{
-		grid-column-start: 4;
-	}
-	#root .xl\:col-start-1{
-		grid-column-start: 1;
-	}
-	#root .xl\:col-start-4{
-		grid-column-start: 4;
-	}
-	#root .xl\:col-start-1{
-		grid-column-start: 1;
-	}
-	#root .xl\:col-start-4{
-		grid-column-start: 4;
-	}
-	#root .xl\:col-start-1{
-		grid-column-start: 1;
-	}
-	#root .xl\:col-start-4{
-		grid-column-start: 4;
-	}
-	#root .xl\:col-start-1{
-		grid-column-start: 1;
-	}
-	#root .xl\:col-start-4{
-		grid-column-start: 4;
-	}
-	#root .xl\:col-start-1{
-		grid-column-start: 1;
-	}
-	#root .xl\:col-start-4{
-		grid-column-start: 4;
-	}
-	#root .xl\:col-start-1{
-		grid-column-start: 1;
-	}
-	#root .xl\:col-start-4{
-		grid-column-start: 4;
-	}
-	#root .xl\:col-start-1{
-		grid-column-start: 1;
-	}
-	#root .xl\:col-start-4{
-		grid-column-start: 4;
-	}
-	#root .xl\:col-start-1{
-		grid-column-start: 1;
-	}
-	#root .xl\:col-start-4{
-		grid-column-start: 4;
-	}
-	#root .xl\:col-start-1{
-		grid-column-start: 1;
-	}
-	#root .xl\:col-start-4{
-		grid-column-start: 4;
-	}
-	#root .xl\:col-start-1{
-		grid-column-start: 1;
-	}
-	#root .xl\:col-start-4{
-		grid-column-start: 4;
-	}
-	#root .xl\:col-start-1{
-		grid-column-start: 1;
-	}
-	#root .xl\:col-start-4{
-		grid-column-start: 4;
-	}
-	#root .xl\:col-start-1{
-		grid-column-start: 1;
-	}
-	#root .xl\:col-start-4{
-		grid-column-start: 4;
-	}
-	#root .xl\:col-start-1{
-		grid-column-start: 1;
-	}
-	#root .xl\:col-start-4{
-		grid-column-start: 4;
-	}
-	#root .xl\:grid-cols-5{
-		grid-template-columns: repeat(5, minmax(0, 1fr));
-	}
 	#root .xl\:grid-cols-4{
 		grid-template-columns: repeat(4, minmax(0, 1fr));
 	}
 	#root .xl\:grid-cols-5{
 		grid-template-columns: repeat(5, minmax(0, 1fr));
-	}
-	#root .xl\:grid-cols-4{
-		grid-template-columns: repeat(4, minmax(0, 1fr));
-	}
-	#root .xl\:grid-cols-5{
-		grid-template-columns: repeat(5, minmax(0, 1fr));
-	}
-	#root .xl\:grid-cols-4{
-		grid-template-columns: repeat(4, minmax(0, 1fr));
-	}
-	#root .xl\:grid-cols-5{
-		grid-template-columns: repeat(5, minmax(0, 1fr));
-	}
-	#root .xl\:grid-cols-4{
-		grid-template-columns: repeat(4, minmax(0, 1fr));
-	}
-	#root .xl\:grid-cols-5{
-		grid-template-columns: repeat(5, minmax(0, 1fr));
-	}
-	#root .xl\:grid-cols-4{
-		grid-template-columns: repeat(4, minmax(0, 1fr));
-	}
-	#root .xl\:grid-cols-5{
-		grid-template-columns: repeat(5, minmax(0, 1fr));
-	}
-	#root .xl\:grid-cols-4{
-		grid-template-columns: repeat(4, minmax(0, 1fr));
-	}
-	#root .xl\:grid-cols-5{
-		grid-template-columns: repeat(5, minmax(0, 1fr));
-	}
-	#root .xl\:grid-cols-4{
-		grid-template-columns: repeat(4, minmax(0, 1fr));
-	}
-	#root .xl\:grid-cols-5{
-		grid-template-columns: repeat(5, minmax(0, 1fr));
-	}
-	#root .xl\:grid-cols-4{
-		grid-template-columns: repeat(4, minmax(0, 1fr));
-	}
-	#root .xl\:grid-cols-5{
-		grid-template-columns: repeat(5, minmax(0, 1fr));
-	}
-	#root .xl\:grid-cols-4{
-		grid-template-columns: repeat(4, minmax(0, 1fr));
-	}
-	#root .xl\:grid-cols-5{
-		grid-template-columns: repeat(5, minmax(0, 1fr));
-	}
-	#root .xl\:grid-cols-4{
-		grid-template-columns: repeat(4, minmax(0, 1fr));
-	}
-	#root .xl\:grid-cols-5{
-		grid-template-columns: repeat(5, minmax(0, 1fr));
-	}
-	#root .xl\:grid-cols-4{
-		grid-template-columns: repeat(4, minmax(0, 1fr));
-	}
-	#root .xl\:grid-cols-5{
-		grid-template-columns: repeat(5, minmax(0, 1fr));
-	}
-	#root .xl\:grid-cols-4{
-		grid-template-columns: repeat(4, minmax(0, 1fr));
-	}
-	#root .xl\:grid-cols-5{
-		grid-template-columns: repeat(5, minmax(0, 1fr));
-	}
-	#root .xl\:grid-cols-4{
-		grid-template-columns: repeat(4, minmax(0, 1fr));
-	}
-	#root .xl\:grid-cols-5{
-		grid-template-columns: repeat(5, minmax(0, 1fr));
-	}
-	#root .xl\:grid-cols-4{
-		grid-template-columns: repeat(4, minmax(0, 1fr));
-	}
-	#root .xl\:grid-cols-5{
-		grid-template-columns: repeat(5, minmax(0, 1fr));
-	}
-	#root .xl\:grid-cols-4{
-		grid-template-columns: repeat(4, minmax(0, 1fr));
-	}
-	#root .xl\:grid-cols-5{
-		grid-template-columns: repeat(5, minmax(0, 1fr));
-	}
-	#root .xl\:grid-cols-4{
-		grid-template-columns: repeat(4, minmax(0, 1fr));
-	}
-	#root .xl\:grid-cols-5{
-		grid-template-columns: repeat(5, minmax(0, 1fr));
-	}
-	#root .xl\:grid-cols-4{
-		grid-template-columns: repeat(4, minmax(0, 1fr));
-	}
-	#root .xl\:grid-cols-5{
-		grid-template-columns: repeat(5, minmax(0, 1fr));
-	}
-	#root .xl\:grid-cols-4{
-		grid-template-columns: repeat(4, minmax(0, 1fr));
-	}
-	#root .xl\:grid-cols-5{
-		grid-template-columns: repeat(5, minmax(0, 1fr));
-	}
-	#root .xl\:grid-cols-4{
-		grid-template-columns: repeat(4, minmax(0, 1fr));
-	}
-	#root .xl\:grid-cols-5{
-		grid-template-columns: repeat(5, minmax(0, 1fr));
-	}
-	#root .xl\:grid-cols-4{
-		grid-template-columns: repeat(4, minmax(0, 1fr));
-	}
-	#root .xl\:grid-cols-5{
-		grid-template-columns: repeat(5, minmax(0, 1fr));
-	}
-	#root .xl\:grid-cols-4{
-		grid-template-columns: repeat(4, minmax(0, 1fr));
 	}
 }

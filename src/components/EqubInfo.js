@@ -5,6 +5,7 @@ import CardStatusFooter from '@material-tailwind/react/CardStatusFooter';
 import Icon from '@material-tailwind/react/Icon';
 import { Button } from '@material-tailwind/react';
 import React, { useState } from 'react';
+import {getPosts} from "../api/post";
 export default function EqubInfo() {
     const[equbs, setEqubs] = useState([])
     return(

@@ -2,7 +2,6 @@ import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import AdminNavbar from './AdminNavbar';
 import Icon from '@material-tailwind/react/Icon';
-import H6 from '@material-tailwind/react/Heading6';
 import Image from '@material-tailwind/react/Image';
 import equbImage from 'assets/img/EqubImage.png';
 export default function Sidebar() {
