@@ -15,7 +15,7 @@ export default function EqubInfo() {
         console.log(equbs);
      },[])
     return(
-        <div className=''>{equbs.map(equb => <>
+       <>{equbs.map(equb => <>
         <div className = "">
             <div className="px-3 md:px-8 h-[250px]">
                 <div className="container mx-auto max-w-full mt-10">
@@ -42,17 +42,21 @@ export default function EqubInfo() {
 
                         </div>
                         
-                        
                     </div>
-                    <div className='flex  ring-offset-blue-900 ml-[500px]'>
-                <div className="rounded-lg text-gray-700">
+                    </>
+                </CardRow>
+
+
+                <CardStatusFooter>
+                <div className='flex  ring-offset-blue-900 ml-[500px]'>
+                <div className="rounded-lg mb-2 text-gray-700">
                             <div className="ring-offset-blue-900 text-blue-900  shadow-md  flex items-center gap-3 text-sm font-light px-4 py-1 rounded-lg">
                                 <Button color="orange" >View Members</Button>
                             </div>
                 </div>
                 </div>
-                    </>
-                </CardRow>
+                    
+                </CardStatusFooter>
             </Card>
         </div>
                 </div>
@@ -61,6 +65,6 @@ export default function EqubInfo() {
           
         </div>
 
-        </>)}</div>
+        </>)}</>
     );
 }
