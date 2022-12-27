@@ -16,15 +16,11 @@ export default function Sidebar() {
                 className={`h-screen fixed top-0 md:left-0 ${showSidebar} overflow-y-auto flex-row flex-nowrap overflow-hidden shadow-xl bg-white w-64 z-10 py-4 px-6 transition-all duration-300`}
             >
                 <div className="flex-col items-stretch min-h-full flex-nowrap px-0 relative">
-                   
-                        {/* <H6 color="gray">Material Tailwind</H6> */}
                         <div className="">
                             <Image src={equbImage}  />
                         </div>
-                   
                     <div className="flex flex-col">
                         <hr className="my-4 min-w-full" />
-
                         <ul className="flex-col min-w-full flex list-none">
                             <li className="rounded-lg mb-4">
                                 <NavLink
@@ -83,9 +79,7 @@ export default function Sidebar() {
                         <ul className="flex-col min-w-full flex list-none absolute bottom-0">
                             <li className="bg-gradient-to-tr from-light-blue-500 to-light-blue-700 px-4 rounded-lg text-white mb-2">
                                 <a
-                                    href="https://material-tailwind.com/documentation/quick-start"
-                                    target="_blank"
-                                    rel="noreferrer"
+                                   
                                     className="flex items-center gap-4 text-sm font-light py-3"
                                 >
                                     <Icon name="description" size="2xl" />
