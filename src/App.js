@@ -7,7 +7,6 @@ import Advertisements from 'pages/Advertisements';
 import Footer from 'components/Footer';
 import Settings from 'pages/Settings';
 import EqubRegulations from 'pages/EqubRegulations';
-// Tailwind CSS Style Sheet
 import 'assets/styles/tailwind.css';
 import DateRange from 'components/DateRange';
 function App() {

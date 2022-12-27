@@ -3,9 +3,9 @@ import CardRow from '@material-tailwind/react/CardRow';
 import CardHeader from '@material-tailwind/react/CardHeader';
 import CardStatusFooter from '@material-tailwind/react/CardStatusFooter';
 import Icon from '@material-tailwind/react/Icon';
-import { Button } from '@material-tailwind/react';
+
 import React, { useState , useEffect} from 'react';
-import {getPosts} from "../api/post";
+
 export default function EqubInfo() {
     const[equbs, setEqubs] = useState([])
     useEffect(()=>{
@@ -26,10 +26,9 @@ export default function EqubInfo() {
                    <>
                         <div className="flex  max-w-full h-40  mt-[5px] ml-10 mr-10">
                             <div className=" w-1/2  ml-[40px] text-gray-500">
-                                <h1 className='my-2'>Name of Equb  :   {equb.equb_name}</h1>
+                                <p className='my-2'>Name of Equb  :   {equb.equb_name}</p>
                                 <h1 className='my-2'>Manager  :   {equb.manager}</h1>
                                 <h1 className='my-2'>Size of Equb  :   {equb.size}</h1>
-
                             </div>
                             <div className=" w-1/2 text-gray-500">
                                 <h1 className='my-2'>Frequency   :   {equb.freequency}</h1>
