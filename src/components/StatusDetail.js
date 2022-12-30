@@ -68,7 +68,7 @@ export default function StatusDetail() {
                     </div>
                     
                         <div className='mt-[-30px] mb-[40px] ml-[29px]'>
-                        <Button color="orange" onClick = {<div>Hello</div>}>custome</Button>
+                        <Button color="orange" >custome</Button>
                         </div>
 
                    
