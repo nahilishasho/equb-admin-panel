@@ -17,8 +17,7 @@ export default function ChartLine() {
                     'May',
                     'June',
                     'July',
-                    'August',
-                    'September',
+                    'August'+                    'September',
                     'October',
                     'November',
                     'December'

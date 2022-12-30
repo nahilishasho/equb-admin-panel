@@ -2,13 +2,13 @@ import StatusCard from 'components/StatusCard';
 import { Button } from '@material-tailwind/react';
 import ChartLine from 'components/ChartLine';
 import ChartBar from 'components/ChartBar';
+
+import DateRangePicker2 from './DateRangePicker2';
+import DatePicker from './DatePicker';
 export default function StatusDetail() {
     return (
-       
-            <div> 
-                
-                <div className="bg-gray-100 px-3 md:px-8 h-40" />
-            <div></div>
+    <div> 
+        <div className="bg-gray-100 px-3 md:px-8 h-40" />
             <div className="px-3 md:px-8 -mt-24">
                 <div className="container mx-auto max-w-full">
                     <div className="grid grid-cols-1 xl:grid-cols-5">
@@ -68,7 +68,7 @@ export default function StatusDetail() {
                     </div>
                     
                         <div className='mt-[-30px] mb-[40px] ml-[29px]'>
-                            <Button color="orange" >custome</Button>
+                        <Button color="orange" onClick = {<div>Hello</div>}>custome</Button>
                         </div>
 
                    
@@ -165,7 +165,9 @@ export default function StatusDetail() {
                         />
                     </div>
                     <div className='mt-[-30px] mb-[40px] ml-[29px]'>
-                    <Button color="orange">custome</Button>
+                    <Button color="orange" onClick = {<DatePicker/>}>custome</Button>
+                    {/* <DatePicker />
+                    <DatePicker/> */}
                     </div>
                     <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 mb-4">
                         

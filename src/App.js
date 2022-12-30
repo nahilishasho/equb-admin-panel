@@ -8,7 +8,7 @@ import Footer from 'components/Footer';
 import Settings from 'pages/Settings';
 import EqubRegulations from 'pages/EqubRegulations';
 import 'assets/styles/tailwind.css';
-import DateRange from 'components/DateRange';
+//import DateRange from 'components/DateRange';
 function App() {
     return (
         <>
@@ -21,7 +21,7 @@ function App() {
                     <Route exact path="/feedbacks" component={Feedbacks} />
                     <Route exact path="/settings" component={Settings} />
                     <Route exact path = "/equbRegulations" component={EqubRegulations}/>
-                    <Route exact path="/dateRange" component={DateRange} />
+                    
                     <Redirect from="*" to="/" />
                 </Switch>
                 <Footer />

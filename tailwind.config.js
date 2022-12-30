@@ -1,6 +1,6 @@
 module.exports = {
     mode: 'jit',
-    purge: ['./src/**/*.js', './public/index.html'],
+    purge: ['./src/**/*.js', './public/index.html', "./node_modules/react-tailwindcss-datepicker/dist/index.esm.js"],
     darkMode: true, // or 'media' or 'class'
     important: "#root",
     theme: {
