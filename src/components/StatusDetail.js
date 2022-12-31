@@ -2,12 +2,19 @@ import StatusCard from 'components/StatusCard';
 import { Button } from '@material-tailwind/react';
 import ChartLine from 'components/ChartLine';
 import ChartBar from 'components/ChartBar';
-
-import DateRangePicker2 from './DateRangePicker2';
 import DatePicker from './DatePicker';
+
+import Image from '@material-tailwind/react/Image';
+import { useState } from 'react';
+import calender from 'assets/img/calender.png';
+import Popover from "@material-ui/core/Popover";
+  
 export default function StatusDetail() {
+    const [anchorEl, setAnchorEl] = useState(null);
+    const open = Boolean(anchorEl);
     return (
     <div> 
+        
         <div className="bg-gray-100 px-3 md:px-8 h-40" />
             <div className="px-3 md:px-8 -mt-24">
                 <div className="container mx-auto max-w-full">
@@ -23,7 +30,7 @@ export default function StatusDetail() {
             </div>
                 <div className="px-3 md:px-8">
                 <div className="container mx-auto max-w-full">
-                    <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 mb-4">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 ">
                     <StatusCard
                             color="orange"
                             icon="groups"
@@ -67,14 +74,42 @@ export default function StatusDetail() {
                         
                     </div>
                     
-                        <div className='mt-[-30px] mb-[40px] ml-[29px]'>
-                        <Button color="orange" >custome</Button>
-                        </div>
-
-                   
-                  
-                    
-                    <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 mb-4">
+                    {/* <Popover>
+      <PopoverHandler>
+        <Button variant="gradient">Show Popover</Button>
+      </PopoverHandler>
+      <PopoverContent>
+        This is a very beautiful popover, show some love.
+      </PopoverContent>
+    </Popover> */}
+            <div>
+            <Button
+        variant="contained"
+        className='ml-7 mb-8'
+        onClick={(event) => {
+          setAnchorEl(event.currentTarget);
+        }}
+      >Choose Custome Date</Button>
+      <Popover
+        anchorEl={anchorEl}
+        open={open}
+        id={open ? "simple-popover" : undefined}
+        onClose={() => {
+          setAnchorEl(null);
+        }}
+        transformOrigin={{
+          horizontal: "center",
+          vertical: "top",
+        }}
+        anchorOrigin={{
+          horizontal: "center",
+          vertical: "bottom",
+        }}
+      >
+        <div><DatePicker/></div>
+      </Popover>
+            </div>
+            <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 mb-4">
                         
                     <StatusCard
                             color="orange"
@@ -117,9 +152,33 @@ export default function StatusDetail() {
                             date="Since last year"
                         />
                     </div>
-                    <div className='mt-[-30px] mb-[40px] ml-[29px]'>
-                    <Button color="orange">custome</Button>
-                    </div>
+                    <div>
+            <Button
+        variant="contained"
+        className='ml-7 mb-8'
+        onClick={(event) => {
+          setAnchorEl(event.currentTarget);
+        }}
+      >Choose Custome Date</Button>
+      <Popover
+        anchorEl={anchorEl}
+        open={open}
+        id={open ? "simple-popover" : undefined}
+        onClose={() => {
+          setAnchorEl(null);
+        }}
+        transformOrigin={{
+          horizontal: "center",
+          vertical: "top",
+        }}
+        anchorOrigin={{
+          horizontal: "center",
+          vertical: "bottom",
+        }}
+      >
+        <div><DatePicker/></div>
+      </Popover>
+            </div>
                     <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 mb-4">
                     
                     <StatusCard
@@ -164,11 +223,33 @@ export default function StatusDetail() {
                             date="Since last year"
                         />
                     </div>
-                    <div className='mt-[-30px] mb-[40px] ml-[29px]'>
-                    <Button color="orange" onClick = {<DatePicker/>}>custome</Button>
-                    {/* <DatePicker />
-                    <DatePicker/> */}
-                    </div>
+                    <div>
+            <Button
+        variant="contained"
+        className='ml-7 mb-8'
+        onClick={(event) => {
+          setAnchorEl(event.currentTarget);
+        }}
+      >Choose Custome Date</Button>
+      <Popover
+        anchorEl={anchorEl}
+        open={open}
+        id={open ? "simple-popover" : undefined}
+        onClose={() => {
+          setAnchorEl(null);
+        }}
+        transformOrigin={{
+          horizontal: "center",
+          vertical: "top",
+        }}
+        anchorOrigin={{
+          horizontal: "center",
+          vertical: "bottom",
+        }}
+      >
+        <div><DatePicker/></div>
+      </Popover>
+            </div>
                     <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 mb-4">
                         
                         <StatusCard
@@ -213,9 +294,33 @@ export default function StatusDetail() {
                             date="Since last year"
                         />
                     </div>
-                    <div className='mt-[-30px] mb-[40px] ml-[29px]'>
-                    <Button color="orange">custome</Button>
-                    </div>
+                    <div>
+            <Button
+        variant="contained"
+        className='ml-7 mb-8'
+        onClick={(event) => {
+          setAnchorEl(event.currentTarget);
+        }}
+      >Choose Custome Date</Button>
+      <Popover
+        anchorEl={anchorEl}
+        open={open}
+        id={open ? "simple-popover" : undefined}
+        onClose={() => {
+          setAnchorEl(null);
+        }}
+        transformOrigin={{
+          horizontal: "center",
+          vertical: "top",
+        }}
+        anchorOrigin={{
+          horizontal: "center",
+          vertical: "bottom",
+        }}
+      >
+        <div><DatePicker/></div>
+      </Popover>
+            </div>
                 </div>
             </div>
             </div>

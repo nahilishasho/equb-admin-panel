@@ -78,13 +78,13 @@ export default function Sidebar() {
 
                         <ul className="flex-col min-w-full flex list-none absolute bottom-0">
                             <li className="bg-gradient-to-tr from-light-blue-500 to-light-blue-700 px-4 rounded-lg text-white mb-2">
-                                <a
+                                <button
                                    
                                     className="flex items-center gap-4 text-sm font-light py-3"
                                 >
                                     <Icon name="description" size="2xl" />
                                     Equb Regulations
-                                </a>
+                                </button>
                             </li>
                             
                         </ul>

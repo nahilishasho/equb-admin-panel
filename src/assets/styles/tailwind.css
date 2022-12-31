@@ -674,14 +674,11 @@ video {
 #root .mb-14{
 	margin-bottom: 3.5rem;
 }
-#root .mt-\[-30px\]{
-	margin-top: -30px;
+#root .ml-7{
+	margin-left: 1.75rem;
 }
-#root .mb-\[40px\]{
-	margin-bottom: 40px;
-}
-#root .ml-\[29px\]{
-	margin-left: 29px;
+#root .mb-8{
+	margin-bottom: 2rem;
 }
 #root .block{
 	display: block;
